@@ -1,0 +1,58 @@
+body{
+    background-color:rgb(215, 251, 245);
+    color:rgb(102, 102, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+    margin-right:25%;
+    margin-left:25%;
+}
+.hobby, .table{
+    background: white;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    border-radius:15px;
+}
+thead{
+background-color: rgb(201, 252, 235);
+}
+.button {
+    background:rgb(61, 96, 96);
+    color:white;
+    border-color:rgb(123, 184, 184);
+}
+.button:hover{
+    background-color: rgb(85, 180, 148);
+}
+a {
+    color:rgb(46, 46, 46);
+    text-decoration:none;
+}
+a:hover {
+    color:rgb(11, 185, 185)
+}
+a:visited {
+    color:rgb(6, 132, 190);
+}
+#h1, #h1, #p1, #p2, img{
+    display:inline;
+}
+img{
+    width:200px;
+    height:200px;
+    margin-right:0%;
+    border:none;
+    padding:0%;
+}
+#h1, #h1, #p1, #p2{
+    margin-top:1%;
+    margin-left:0;
+    border:none;
+    padding:0%;
+    display:flex;
+    box-sizing:content-box;
+}
+form div{
+    display:inline-block;
+    box-sizing:content-box;
+}
